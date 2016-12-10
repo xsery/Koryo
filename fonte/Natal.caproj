@@ -389,9 +389,15 @@
         </object-type>
         <object-type name="inimigo" sid="944536413838611">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="direcao" sid="995257343949129" type="string" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="Solid" sid="679132505730738">
                     <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Platform" sid="615411443113713">
+                    <behavior id="Platform" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -510,6 +516,14 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="896606439948926" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="explosao" sid="505177536070497">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="138515995910889" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504951" original-source="C:\Users\irlan.gomes\Documents\font\uea\Natal\assert\explode.png" />
                 </animation>
             </animation-folder>
         </object-type>

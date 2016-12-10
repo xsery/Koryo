@@ -379,6 +379,23 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="589160447875032">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="716181017784364" type="jogador">
+                            <param id="0" name="Object">tiroinimigo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="344593094596391" type="jogador">
+                            <param id="0" name="Control">2</param>
+                        </action>
+                        <action id="-12" name="Subtract from" sid="373872906653955" type="jogador">
+                            <param id="0" name="Instance variable">VIDA</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="359118067662807" type="tiroinimigo" />
+                    </actions>
+                </event-block>
                 <event-block sid="168911781392854">
                     <conditions>
                         <condition id="-1" name="Every tick" sid="743781493724659" type="System" />
@@ -400,32 +417,99 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="773302998259595" title="Gerenciando Inimigos" />
-        <event-block sid="928671031626415">
-            <conditions>
-                <condition id="-6" name="Every X seconds" sid="248879650106428" type="System">
-                    <param id="0" name="Interval (seconds)">3</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Spawn another object" sid="551131819029224" type="inimigo2">
-                    <param id="0" name="Object">tiroinimigo</param>
-                    <param id="1" name="Layer">3</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="597551346336721">
-            <conditions>
-                <condition id="-6" name="Every X seconds" sid="710406059795578" type="System">
-                    <param id="0" name="Interval (seconds)">5.0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Platform" id="7" name="Simulate control" sid="779406098806573" type="inimigo2">
-                    <param id="0" name="Control">2</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="" sid="773302998259595" title="Gerenciando Inimigos">
+            <sub-events>
+                <event-block sid="928671031626415">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="248879650106428" type="System">
+                            <param id="0" name="Interval (seconds)">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="551131819029224" type="inimigo2">
+                            <param id="0" name="Object">tiroinimigo</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="597551346336721">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="710406059795578" type="System">
+                            <param id="0" name="Interval (seconds)">5.0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="779406098806573" type="inimigo2">
+                            <param id="0" name="Control">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="391840698010592">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="871624638286723" type="inimigo">
+                            <param id="0" name="Instance variable">direcao</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;direita&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="422094349354848" type="inimigo">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                        <action id="7" name="Set mirrored" sid="673842796467662" type="inimigo">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="658668847301621">
+                            <conditions>
+                                <condition behavior="Platform" id="10" name="Is by wall" sid="197056824620420" type="inimigo">
+                                    <param id="0" name="Side">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="158581646618676" type="inimigo">
+                                    <param id="0" name="Instance variable">direcao</param>
+                                    <param id="1" name="Value">&quot;esquerda&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="586592530411396">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="225404976345372" type="inimigo">
+                            <param id="0" name="Instance variable">direcao</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;esquerda&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="718933110296727" type="inimigo">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                        <action id="7" name="Set mirrored" sid="971249884039040" type="inimigo">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="532133171442746">
+                            <conditions>
+                                <condition behavior="Platform" id="10" name="Is by wall" sid="280288274487939" type="inimigo">
+                                    <param id="0" name="Side">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="427917898910593" type="inimigo">
+                                    <param id="0" name="Instance variable">direcao</param>
+                                    <param id="1" name="Value">&quot;direita&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>
