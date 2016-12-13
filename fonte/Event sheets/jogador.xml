@@ -19,9 +19,6 @@
                         <action id="7" name="Set mirrored" sid="865446769805678" type="jogador">
                             <param id="0" name="State">0</param>
                         </action>
-                        <action behavior="Bullet" disabled="1" id="0" name="Set speed" sid="998475141780814" type="tiro">
-                            <param id="0" name="Speed">-400</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="487075674660959">
@@ -36,9 +33,6 @@
                         </action>
                         <action id="7" name="Set mirrored" sid="145721319355175" type="jogador">
                             <param id="0" name="State">1</param>
-                        </action>
-                        <action behavior="Bullet" disabled="1" id="0" name="Set speed" sid="707397159379596" type="tiro">
-                            <param id="0" name="Speed">400</param>
                         </action>
                     </actions>
                 </event-block>
@@ -217,23 +211,174 @@
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
                         </condition>
+                        <condition id="2" name="Is playing" sid="816671276594375" type="jogador">
+                            <param id="0" name="Animation">&quot;parar&quot;</param>
+                        </condition>
                     </conditions>
                     <actions>
-                        <action id="4" name="Set animation" sid="626194393633756" type="jogador">
+                        <action id="4" name="Set animation" sid="906802017756818" type="jogador">
                             <param id="0" name="Animation">&quot;atirar&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="0" name="Spawn another object" sid="743264272096140" type="jogador">
-                            <param id="0" name="Object">tiro</param>
-                            <param id="1" name="Layer">1</param>
-                            <param id="2" name="Image point">1</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="683754042356379" type="System">
-                            <param id="0" name="Seconds">0.1</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="129722070844928" type="jogador">
+                    </actions>
+                    <sub-events>
+                        <event-block sid="836414524414234">
+                            <conditions>
+                                <condition id="7" name="Is mirrored" sid="907996387732293" type="jogador" />
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="808913905945798" type="tiro">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="736120267920874" type="jogador">
+                                    <param id="0" name="Object">tiro</param>
+                                    <param id="1" name="Layer">3</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="193955976260695" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="512153020448968" type="jogador">
+                                    <param id="0" name="Animation">&quot;parar&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="408990367589472">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Is mirrored" sid="329001921706494" type="jogador" />
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="758010455689308" type="tiro">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="194787677592079" type="jogador">
+                                    <param id="0" name="Object">tiro</param>
+                                    <param id="1" name="Layer">3</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="314082703599290" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="503688806350239" type="jogador">
+                                    <param id="0" name="Animation">&quot;parar&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block disabled="1" sid="824794961445581">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="614221226366283" type="Keyboard">
+                            <param id="0" name="Key">75 (K)</param>
+                        </condition>
+                        <condition id="2" name="Is playing" sid="389461921815052" type="jogador">
                             <param id="0" name="Animation">&quot;parar&quot;</param>
-                            <param id="1" name="From">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block disabled="1" sid="535692014017393">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Is mirrored" sid="496375628707490" type="jogador" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="412870277779913" type="jogador">
+                                    <param id="0" name="Animation">&quot;atirar&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="495971049702844" type="tiro">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="339041517221706" type="System">
+                                    <param id="0" name="Object to create">tiro</param>
+                                    <param id="1" name="Layer">3</param>
+                                    <param id="2" name="X">jogador.X+40</param>
+                                    <param id="3" name="Y">jogador.Y-20</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="989012990403123" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="165816290124278" type="jogador">
+                                    <param id="0" name="Animation">&quot;parar&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block disabled="1" sid="659500795672970">
+                            <conditions>
+                                <condition id="7" name="Is mirrored" sid="554883869044227" type="jogador" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="720156031859703" type="jogador">
+                                    <param id="0" name="Animation">&quot;atirar&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="518021220981153" type="tiro">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="300026914089742" type="System">
+                                    <param id="0" name="Object to create">tiro</param>
+                                    <param id="1" name="Layer">3</param>
+                                    <param id="2" name="X">jogador.X-40</param>
+                                    <param id="3" name="Y">jogador.Y-20</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="392004774822424" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="596295353897085" type="jogador">
+                                    <param id="0" name="Animation">&quot;parar&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="380187081405671">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="863824187176297" type="tiro" />
+                        <condition id="7" name="Is mirrored" sid="561828076648111" type="jogador" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="794394369251421" type="tiro">
+                            <param id="0" name="Angle">180</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="348826836786097" title="Gerenciando Vida">
+            <sub-events>
+                <event-block sid="586492390537343">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="554511225251767" type="jogador">
+                            <param id="0" name="Object">espinho</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="492860853409747" type="jogador">
+                            <param id="0" name="Instance variable">VIDA</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="168911781392854">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="743781493724659" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="599291564276732" type="jogador">
+                            <param id="0" name="Instance variable">VIDA</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="915318703925900" type="jogador">
+                            <param id="0" name="Instance variable">POR_VIDA</param>
+                            <param id="1" name="Value">jogador.VIDA*100/200</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="466358472641256" type="barra">
+                            <param id="0" name="Width">(129.333 * jogador.POR_VIDA) / 100</param>
                         </action>
                     </actions>
                 </event-block>
