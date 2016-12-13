@@ -350,6 +350,19 @@
         </event-group>
         <event-group description="" sid="348826836786097" title="Gerenciando Vida">
             <sub-events>
+                <event-block sid="741892110658224">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="170828100794604" type="jogador">
+                            <param id="0" name="Object">coracao</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Add to" sid="519464291940827" type="jogador">
+                            <param id="0" name="Instance variable">VIDA</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="586492390537343">
                     <conditions>
                         <condition id="0" name="On collision with another object" sid="554511225251767" type="jogador">
@@ -357,6 +370,9 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="962751546369521" type="jogador">
+                            <param id="0" name="Control">2</param>
+                        </action>
                         <action id="-12" name="Subtract from" sid="492860853409747" type="jogador">
                             <param id="0" name="Instance variable">VIDA</param>
                             <param id="1" name="Value">10</param>
@@ -384,5 +400,32 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-group description="" sid="773302998259595" title="Gerenciando Inimigos" />
+        <event-block sid="928671031626415">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="248879650106428" type="System">
+                    <param id="0" name="Interval (seconds)">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="551131819029224" type="inimigo2">
+                    <param id="0" name="Object">tiroinimigo</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="597551346336721">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="710406059795578" type="System">
+                    <param id="0" name="Interval (seconds)">5.0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="779406098806573" type="inimigo2">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -36,12 +36,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite5/" />
         <folder expanded="1" path="animation-folder/tiro/" />
         <folder expanded="1" path="animation-folder/Sprite6/" />
-        <folder expanded="1" path="animation-folder/barraVida/" />
         <folder expanded="1" path="animation-folder/Sprite7/" />
         <folder expanded="1" path="animation-folder/espinho/" />
         <folder expanded="1" path="animation-folder/inimigo/" />
         <folder expanded="1" path="animation-folder/frame/" />
         <folder expanded="1" path="animation-folder/subbarra/" />
         <folder expanded="1" path="animation-folder/barra/" />
+        <folder expanded="1" path="animation-folder/coracao/" />
+        <folder expanded="1" path="animation-folder/Sprite8/" />
+        <folder expanded="1" path="animation-folder/inimigo2/" />
+        <folder expanded="1" path="animation-folder/tiroinimigo/" />
+        <folder expanded="1" path="animation-folder/Sprite10/" />
     </folders-expanded>
 </c2uistate>
