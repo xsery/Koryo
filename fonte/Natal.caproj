@@ -527,6 +527,140 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite9" sid="557205455516301">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="431293046238107" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="platform" sid="171627463809788">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="781691716375801">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="258416450173128" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\xsery\Desktop\platform.png">
+                        <collision-poly>
+                            <point x="0.00147493" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="boss" sid="447909300152811">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="animacoes" sid="951754234869968" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="758378821380345">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="271082772915419">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="715013298083461" speed="5">
+                    <frame duration="1" hotspotX="0.506329" hotspotY="0.983051" original-source="C:\Users\xsery\Desktop\1193.gif">
+                        <image-point name="Imagepoint 1" x="0.0506329" y="0.745763" />
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="run" pingpong="0" repeatcount="1" repeatto="0" sid="290730144033031" speed="5">
+                    <frame duration="1" hotspotX="0.443038" hotspotY="0.483051" original-source="C:\Users\xsery\Desktop\1193.gif" />
+                </animation>
+                <animation framecount="1" loop="0" name="jump" pingpong="0" repeatcount="1" repeatto="0" sid="631401342280081" speed="5">
+                    <frame duration="1" hotspotX="0.443038" hotspotY="0.483051" original-source="C:\Users\xsery\Desktop\1193.gif">
+                        <collision-poly>
+                            <point x="0.189873" y="0.211864" />
+                            <point x="0.43038" y="0.0677966" />
+                            <point x="0.810127" y="0.127119" />
+                            <point x="0.962025" y="0.474576" />
+                            <point x="0.860759" y="0.864407" />
+                            <point x="0.43038" y="0.847458" />
+                            <point x="0.101266" y="0.805085" />
+                            <point x="0.0759494" y="0.474576" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="fall" pingpong="0" repeatcount="1" repeatto="0" sid="489906411116648" speed="5">
+                    <frame duration="1" hotspotX="0.443038" hotspotY="0.483051" original-source="C:\Users\xsery\Desktop\1193.gif">
+                        <collision-poly>
+                            <point x="0.189873" y="0.211864" />
+                            <point x="0.43038" y="0.0677966" />
+                            <point x="0.810127" y="0.127119" />
+                            <point x="0.962025" y="0.474576" />
+                            <point x="0.860759" y="0.864407" />
+                            <point x="0.43038" y="0.847458" />
+                            <point x="0.101266" y="0.805085" />
+                            <point x="0.0759494" y="0.474576" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="attack" pingpong="0" repeatcount="1" repeatto="0" sid="978917016653616" speed="5">
+                    <frame duration="1" hotspotX="0.443038" hotspotY="0.483051" original-source="C:\Users\xsery\Desktop\1193.gif">
+                        <collision-poly>
+                            <point x="0.189873" y="0.211864" />
+                            <point x="0.43038" y="0.0677966" />
+                            <point x="0.810127" y="0.127119" />
+                            <point x="0.962025" y="0.474576" />
+                            <point x="0.860759" y="0.864407" />
+                            <point x="0.43038" y="0.847458" />
+                            <point x="0.101266" y="0.805085" />
+                            <point x="0.0759494" y="0.474576" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="miss" pingpong="0" repeatcount="1" repeatto="0" sid="340441245500702" speed="5">
+                    <frame duration="1" hotspotX="0.443038" hotspotY="0.483051" original-source="C:\Users\xsery\Desktop\1193.gif">
+                        <collision-poly>
+                            <point x="0.189873" y="0.211864" />
+                            <point x="0.43038" y="0.0677966" />
+                            <point x="0.810127" y="0.127119" />
+                            <point x="0.962025" y="0.474576" />
+                            <point x="0.860759" y="0.864407" />
+                            <point x="0.43038" y="0.847458" />
+                            <point x="0.101266" y="0.805085" />
+                            <point x="0.0759494" y="0.474576" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wall" sid="887626698110831">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="582599395465952">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="515464122178734" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\xsery\Desktop\wall.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bossattack" sid="120585422630479">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="824602652007531">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="770020507916329" speed="5">
+                    <frame duration="1" hotspotX="0.992" hotspotY="0.472" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

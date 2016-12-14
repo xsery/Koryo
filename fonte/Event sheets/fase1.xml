@@ -2,5 +2,117 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>fase1</name>
-    <events />
+    <events>
+        <event-block sid="478912283966430">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="714741458418037" type="boss">
+                    <param id="0" name="Instance variable">animacoes</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="688056152828738" type="boss">
+                    <param id="0" name="Animation">&quot;jump&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="402466310546589">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="920538815565820" type="boss">
+                    <param id="0" name="Instance variable">animacoes</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="673992629289037" type="boss">
+                    <param id="0" name="Animation">&quot;miss&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="890856109676773">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="400206667352109" type="boss">
+                    <param id="0" name="Instance variable">animacoes</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="310654540185665" type="boss">
+                    <param id="0" name="Animation">&quot;attack&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="256530144892705">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="592992416130540" type="boss">
+                    <param id="0" name="Instance variable">animacoes</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="632662903039942" type="boss">
+                    <param id="0" name="Animation">&quot;idle&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="163930275463229">
+            <conditions>
+                <condition behavior="Platform" id="10" name="Is by wall" sid="692459893548843" type="boss">
+                    <param id="0" name="Side">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="633457695234437" type="boss">
+                    <param id="0" name="Animation">&quot;attack&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="722255582750136">
+            <conditions>
+                <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="191464303781188" type="boss" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="413953330016532" type="boss">
+                    <param id="0" name="Animation">&quot;run&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="684290605115690">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="585042974626052" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="475770764319946" type="boss">
+                    <param id="0" name="Instance variable">animacoes</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="289919617466599">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="127669424660629" type="System">
+                    <param id="0" name="Interval (seconds)">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="893962093602320" type="boss">
+                    <param id="0" name="Object">bossattack</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
