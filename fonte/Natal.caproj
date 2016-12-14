@@ -587,6 +587,9 @@
         </object-type>
         <object-type name="boss" sid="979593734107100">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="animation" sid="286693913448605" type="number" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="Platform" sid="883128427512033">
                     <behavior id="Platform" />
@@ -594,10 +597,49 @@
                 <behavior-type name="Bullet" sid="387530383737034">
                     <behavior id="Bullet" />
                 </behavior-type>
+                <behavior-type name="ScrollTo" sid="874738617654804">
+                    <behavior id="scrollto" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="386135499581234" speed="5">
-                    <frame duration="1" hotspotX="0.443038" hotspotY="0.483051" original-source="C:\Users\fcmau\Downloads\1193.png" />
+                <animation framecount="1" loop="0" name="run" pingpong="0" repeatcount="1" repeatto="0" sid="386135499581234" speed="5">
+                    <frame duration="1" hotspotX="0.607595" hotspotY="0.957627" original-source="C:\Users\fcmau\Downloads\1193.png">
+                        <image-point name="Imagepoint 1" x="0.0886076" y="0.737288" />
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="559377468072775" speed="5">
+                    <frame duration="1" hotspotX="0.506329" hotspotY="0.5" original-source="C:\Users\fcmau\Desktop\natal\Animations\boss\attack\000.png">
+                        <collision-poly>
+                            <point x="0.265823" y="0.177966" />
+                            <point x="0.493671" y="0.0423729" />
+                            <point x="0.810127" y="0.127119" />
+                            <point x="0.949367" y="0.5" />
+                            <point x="0.810127" y="0.872881" />
+                            <point x="0.493671" y="0.974576" />
+                            <point x="0.35443" y="0.762712" />
+                            <point x="0.0759494" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="attack" pingpong="0" repeatcount="1" repeatto="0" sid="152855710640021" speed="5">
+                    <frame duration="1" hotspotX="0.506329" hotspotY="0.5" original-source="C:\Users\fcmau\Desktop\natal\Animations\boss\attack\000.png">
+                        <collision-poly>
+                            <point x="0.265823" y="0.177966" />
+                            <point x="0.493671" y="0.0423729" />
+                            <point x="0.810127" y="0.127119" />
+                            <point x="0.949367" y="0.5" />
+                            <point x="0.810127" y="0.872881" />
+                            <point x="0.493671" y="0.974576" />
+                            <point x="0.35443" y="0.762712" />
+                            <point x="0.0759494" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Animation4" pingpong="0" repeatcount="1" repeatto="0" sid="807099502641753" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="Animation5" pingpong="0" repeatcount="1" repeatto="0" sid="411506038976624" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -647,6 +689,9 @@
                 <behavior-type name="Bullet" sid="581295858998620">
                     <behavior id="Bullet" />
                 </behavior-type>
+                <behavior-type name="Physics" sid="131714076101751">
+                    <behavior id="Physics" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="840834195372596" speed="5">
@@ -656,6 +701,14 @@
         </object-type>
         <object-type name="player" sid="128124196023450">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="402363511800825">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Platform" sid="291686178665131">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="217075446911242" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />

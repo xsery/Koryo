@@ -36,7 +36,25 @@
                     <param id="0" name="Key">68 (D)</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-11" name="Add to" sid="685091564731635" type="boss">
+                    <param id="0" name="Instance variable">animation</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="523702847300791">
+            <conditions>
+                <condition behavior="Platform" id="10" inverted="1" name="Is by wall" sid="608377752531102" type="boss">
+                    <param id="0" name="Side">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="449430427188215" type="boss">
+                    <param id="0" name="Animation">&quot;idle&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
