@@ -597,18 +597,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="386135499581234" speed="5">
-                    <frame duration="1" hotspotX="0.443038" hotspotY="0.483051" original-source="C:\Users\fcmau\Downloads\1193.png">
-                        <collision-poly>
-                            <point x="0.189873" y="0.211864" />
-                            <point x="0.43038" y="0.0677966" />
-                            <point x="0.810127" y="0.127119" />
-                            <point x="0.962025" y="0.474576" />
-                            <point x="0.860759" y="0.864407" />
-                            <point x="0.43038" y="0.847458" />
-                            <point x="0.101266" y="0.805085" />
-                            <point x="0.0759494" y="0.474576" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.443038" hotspotY="0.483051" original-source="C:\Users\fcmau\Downloads\1193.png" />
                 </animation>
             </animation-folder>
         </object-type>
