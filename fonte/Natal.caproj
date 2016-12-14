@@ -8,7 +8,7 @@
     <author-website>http://</author-website>
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>3q9a9gcjureti</unique-id>
-    <saved-with-version>23900</saved-with-version>
+    <saved-with-version>24000</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
@@ -574,6 +574,94 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="588415674979934" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="C:\Users\irlan.gomes\Documents\font\uea\Natal\assert\gameover-screen.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="771052174078612">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="283271276451368" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="boss" sid="979593734107100">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="883128427512033">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="387530383737034">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="386135499581234" speed="5">
+                    <frame duration="1" hotspotX="0.443038" hotspotY="0.483051" original-source="C:\Users\fcmau\Downloads\1193.png">
+                        <collision-poly>
+                            <point x="0.189873" y="0.211864" />
+                            <point x="0.43038" y="0.0677966" />
+                            <point x="0.810127" y="0.127119" />
+                            <point x="0.962025" y="0.474576" />
+                            <point x="0.860759" y="0.864407" />
+                            <point x="0.43038" y="0.847458" />
+                            <point x="0.101266" y="0.805085" />
+                            <point x="0.0759494" y="0.474576" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="platform" sid="996229618370412">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="669635490987592">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="630121377336729" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fcmau\Desktop\natal\Animations\platform\Default\000.png">
+                        <collision-poly>
+                            <point x="0.00147493" y="0.00806452" />
+                            <point x="0.998525" y="0.00806452" />
+                            <point x="0.998525" y="0.991935" />
+                            <point x="0.00147493" y="0.991935" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wall" sid="902404213786810">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="510157996952007">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="359152905587944" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fcmau\Desktop\natal\Animations\wall\Default\000.png">
+                        <collision-poly>
+                            <point x="0.00735294" y="0.00147493" />
+                            <point x="0.992647" y="0.00147493" />
+                            <point x="0.992647" y="0.998525" />
+                            <point x="0.00735294" y="0.998525" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bossblast" sid="338642217245965">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="581295858998620">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="840834195372596" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fcmau\Desktop\natal\Animations\bossattack\Default\000.png" />
                 </animation>
             </animation-folder>
         </object-type>
