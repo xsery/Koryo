@@ -2,5 +2,41 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>fase1</name>
-    <events />
+    <events>
+        <event-block sid="593428171506542">
+            <conditions>
+                <condition behavior="Platform" id="10" name="Is by wall" sid="341410485967781" type="boss">
+                    <param id="0" name="Side">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="125699519029914" type="boss">
+                    <param id="0" name="Animation">&quot;attack&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="788718632862998">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="421142533085225" type="System">
+                    <param id="0" name="Interval (seconds)">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="997017382031295" type="boss">
+                    <param id="0" name="Object">bossblast</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="973756389539069">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="401692375854044" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
 </c2eventsheet>
