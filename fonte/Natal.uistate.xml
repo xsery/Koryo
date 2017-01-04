@@ -11,7 +11,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="1">1-fase</layout>
-        <layout active="1" order="2">jogador</layout>
+        <event-sheet active="1" order="2">1-fase</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -51,7 +51,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/pes/" />
         <folder expanded="1" path="animation-folder/moeda/" />
         <folder expanded="1" path="animation-folder/gameover/" />
-        <folder expanded="1" path="animation-folder/porta/" />
+        <folder expanded="1" path="animation-folder/parede/" />
         <folder expanded="1" path="animation-folder/alavanca/" />
+        <folder expanded="1" path="animation-folder/pontecai/" />
     </folders-expanded>
 </c2uistate>

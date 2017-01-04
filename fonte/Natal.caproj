@@ -577,11 +577,11 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="porta" sid="364243865255190">
+        <object-type name="parede" sid="364243865255190">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="834548073246241" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.484" hotspotY="0.004" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -593,11 +593,27 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
+                <animation framecount="1" loop="0" name="inicio" pingpong="0" repeatcount="1" repeatto="0" sid="584245264960273" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501094" />
+                </animation>
                 <animation framecount="1" loop="0" name="fim" pingpong="0" repeatcount="1" repeatto="0" sid="795499310311648" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.501099" />
                 </animation>
-                <animation framecount="1" loop="0" name="inicio" pingpong="0" repeatcount="1" repeatto="0" sid="584245264960273" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501094" />
+            </animation-folder>
+        </object-type>
+        <object-type name="pontecai" sid="954091393049901">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="429077366926809">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="308309510275305">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="485773527219555" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>

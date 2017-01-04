@@ -617,43 +617,71 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="732500424384441">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="274931524617142" type="jogador">
-                    <param id="0" name="Object">alavanca</param>
-                </condition>
-                <condition id="2" name="Is playing" sid="734287541365963" type="alavanca">
-                    <param id="0" name="Animation">&quot;inicio&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-16" name="Wait" sid="132379486322937" type="System">
-                    <param id="0" name="Seconds">0.5</param>
-                </action>
-                <action id="4" name="Set animation" sid="254452786169122" type="alavanca">
-                    <param id="0" name="Animation">&quot;fim&quot;</param>
-                    <param id="1" name="From">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="130746446385942">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="259384316233757" type="jogador">
-                    <param id="0" name="Object">alavanca</param>
-                </condition>
-                <condition id="2" name="Is playing" sid="779500292140141" type="alavanca">
-                    <param id="0" name="Animation">&quot;fim&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-16" name="Wait" sid="770799949364874" type="System">
-                    <param id="0" name="Seconds">0.5</param>
-                </action>
-                <action id="4" name="Set animation" sid="279492439365454" type="alavanca">
-                    <param id="0" name="Animation">&quot;inicio&quot;</param>
-                    <param id="1" name="From">0</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="" sid="804368953194717" title="Alavanca e Parede Movel">
+            <sub-events>
+                <event-block sid="732500424384441">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="274931524617142" type="jogador">
+                            <param id="0" name="Object">alavanca</param>
+                        </condition>
+                        <condition id="2" name="Is playing" sid="734287541365963" type="alavanca">
+                            <param id="0" name="Animation">&quot;inicio&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="132379486322937" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="254452786169122" type="alavanca">
+                            <param id="0" name="Animation">&quot;fim&quot;</param>
+                            <param id="1" name="From">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="946660200180322" type="parede">
+                            <param id="0" name="X">982</param>
+                            <param id="1" name="Y">240</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="130746446385942">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="259384316233757" type="jogador">
+                            <param id="0" name="Object">alavanca</param>
+                        </condition>
+                        <condition id="2" name="Is playing" sid="779500292140141" type="alavanca">
+                            <param id="0" name="Animation">&quot;fim&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="770799949364874" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="279492439365454" type="alavanca">
+                            <param id="0" name="Animation">&quot;inicio&quot;</param>
+                            <param id="1" name="From">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="421916543935505" type="parede">
+                            <param id="0" name="X">982</param>
+                            <param id="1" name="Y">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="504121885243042" title="Ponte Cai">
+            <sub-events>
+                <event-block sid="637317691739581">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="395711857875143" type="jogador">
+                            <param id="0" name="Object">pontecai</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="386073652464492" type="pontecai">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>
