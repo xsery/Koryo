@@ -52,7 +52,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Word" sid="930532570697074">
+        <layer name="World" sid="930532570697074">
             <initially-visible>1</initially-visible>
             <background-color>0,255,255</background-color>
             <transparent>1</transparent>

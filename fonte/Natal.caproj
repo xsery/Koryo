@@ -482,11 +482,15 @@
     <layout-folder>
         <layout>jogador.xml</layout>
         <layout>1-fase.xml</layout>
+        <layout>2-fase.xml</layout>
         <layout>3-fase.xml</layout>
+        <layout>final-stage.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>jogador.xml</event-sheet>
         <event-sheet>1-fase.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="1" />
