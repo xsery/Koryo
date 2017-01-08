@@ -469,6 +469,11 @@
         </object-type>
         <object-type name="Tilemap" sid="951182171331727">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="908659550488545">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture original-source="C:\Users\xsery\Projects\XmasS\assert\FOX---tileset-platformer-new.png" />
             <tiles />
         </object-type>
