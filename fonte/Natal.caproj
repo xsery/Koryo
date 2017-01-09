@@ -26,7 +26,9 @@
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
-    <used-effects />
+    <used-effects>
+        <effect author="Scirra" id="darken">Darken</effect>
+    </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
@@ -55,7 +57,12 @@
     <object-folder>
         <object-type name="TiledBackground" sid="725319577333187">
             <plugin id="TiledBg" />
-            <texture />
+            <effects>
+                <effect-type name="Darken">
+                    <effect id="darken" />
+                </effect-type>
+            </effects>
+            <texture original-source="C:\Users\xsery\Projects\XmasS\fonte\Textures\FOX---tileset-platformer-new.png" />
         </object-type>
         <object-type name="Keyboard" sid="792088712353819">
             <plugin id="Keyboard" />
@@ -474,13 +481,36 @@
                     <behavior id="solid" />
                 </behavior-type>
             </behaviors>
-            <texture original-source="C:\Users\xsery\Projects\XmasS\assert\FOX---tileset-platformer-new.png" />
+            <texture original-source="C:\Users\xsery\Projects\XmasS\fonte\Textures\FOX---tileset-platformer-new.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap2" sid="844612963963971">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="782249887582539">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\xsery\Projects\XmasS\fonte\Textures\FOX---tileset-platformer-new.png" />
+            <tiles />
+        </object-type>
+        <object-type name="TiledBackground2" sid="995962811881337">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\xsery\Desktop\tiled\fase3.png" />
+        </object-type>
+        <object-type name="Tilemap3" sid="584584555969709">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="202126123217294">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\xsery\Projects\XmasS\fonte\Textures\FOX---tileset-platformer-new.png" />
             <tiles />
         </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>jogador.xml</layout>
         <layout>1-fase.xml</layout>
         <layout>2-fase.xml</layout>
         <layout>3-fase.xml</layout>
