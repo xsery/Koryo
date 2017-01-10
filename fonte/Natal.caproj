@@ -8,7 +8,7 @@
     <author-website>http://</author-website>
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>3q9a9gcjureti</unique-id>
-    <saved-with-version>24000</saved-with-version>
+    <saved-with-version>24100</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
@@ -247,7 +247,14 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="479698899684310" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.248" y="0" />
+                            <point x="0.784" y="0" />
+                            <point x="0.912" y="1" />
+                            <point x="0.144" y="1" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -418,8 +425,10 @@
                 <instance-variable name="valor" sid="562040587912843" type="number" />
             </instance-variables>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="860015531309212" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="860015531309212" speed="5">
+                    <frame duration="1" hotspotX="0.544" hotspotY="0.456" />
+                    <frame duration="1" hotspotX="0.544" hotspotY="0.456" />
+                    <frame duration="1" hotspotX="0.544" hotspotY="0.456" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -436,9 +445,14 @@
         </object-type>
         <object-type name="parede" sid="364243865255190">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="294905702128328">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="834548073246241" speed="5">
-                    <frame duration="1" hotspotX="0.484" hotspotY="0.004" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -451,10 +465,17 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="inicio" pingpong="0" repeatcount="1" repeatto="0" sid="584245264960273" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501094" />
+                    <frame duration="1" hotspotX="0.506276" hotspotY="0.0114416">
+                        <collision-poly>
+                            <point x="0.501569" y="0.494005" />
+                            <point x="0.552824" y="0.494005" />
+                            <point x="0.552824" y="0.542426" />
+                            <point x="0.501569" y="0.542426" />
+                        </collision-poly>
+                    </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="fim" pingpong="0" repeatcount="1" repeatto="0" sid="795499310311648" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501099" />
+                    <frame duration="1" hotspotX="0.496032" hotspotY="0.00442478" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -470,7 +491,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="485773527219555" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.433333" hotspotY="0.483871" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -482,7 +503,16 @@
                 </behavior-type>
             </behaviors>
             <texture original-source="C:\Users\xsery\Projects\XmasS\fonte\Textures\FOX---tileset-platformer-new.png" />
-            <tiles />
+            <tiles>
+                <tile id="25">
+                    <collision-poly>
+                        <point x="0.640625" y="0.359375" />
+                        <point x="1" y="0" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+            </tiles>
         </object-type>
         <object-type name="Tilemap2" sid="844612963963971">
             <plugin id="Tilemap" />
@@ -508,6 +538,37 @@
             <texture original-source="C:\Users\xsery\Projects\XmasS\fonte\Textures\FOX---tileset-platformer-new.png" />
             <tiles />
         </object-type>
+        <object-type name="Sprite9" sid="429719687302187">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="963700876614973" speed="5">
+                    <frame duration="1" hotspotX="0.208333" hotspotY="0.463235" original-source="C:\Users\irlan.gomes\Documents\fonte\uea\natal\assert\FOX---tileset-platformer-new.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.483456" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.503676" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="moeda2" sid="365286614347061">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="valor" sid="437690417878802" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="267650021934739" speed="5">
+                    <frame duration="1" hotspotX="0.544" hotspotY="0.456" />
+                    <frame duration="1" hotspotX="0.544" hotspotY="0.456" />
+                    <frame duration="1" hotspotX="0.544" hotspotY="0.456" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -517,7 +578,6 @@
         <layout>final-stage.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>jogador.xml</event-sheet>
         <event-sheet>1-fase.xml</event-sheet>
         <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>Event sheet 2.xml</event-sheet>
