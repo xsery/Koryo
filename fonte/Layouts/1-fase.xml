@@ -819,14 +819,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1156</x>
-                        <y>395</y>
+                        <x>964.665405273</x>
+                        <y>361.86630249</y>
                         <z>0</z>
-                        <width>36.260643005</width>
-                        <height>36.260643005</height>
+                        <width>79.204925537</width>
+                        <height>80.789024353</height>
                         <depth>0</depth>
-                        <hotspotX>-0.016000001</hotspotX>
-                        <hotspotY>0.512000024</hotspotY>
+                        <hotspotX>0.460000008</hotspotX>
+                        <hotspotY>0.352941185</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -900,14 +900,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>505</x>
-                        <y>431</y>
+                        <x>497.209106445</x>
+                        <y>424.421203613</y>
                         <z>0</z>
-                        <width>33.669563293</width>
-                        <height>33.669563293</height>
+                        <width>51.877422333</width>
+                        <height>52.914970398</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.460000008</hotspotX>
+                        <hotspotY>0.568627477</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1055,7 +1055,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="moeda" uid="59">
+                <instance type="presente" uid="59">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1068,14 +1068,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>211.534942627</x>
-                        <y>69.531066895</y>
+                        <x>128</x>
+                        <y>124</y>
                         <z>0</z>
-                        <width>27.694034576</width>
-                        <height>27.694034576</height>
+                        <width>33.148788452</width>
+                        <height>33.148788452</height>
                         <depth>0</depth>
-                        <hotspotX>0.54400003</hotspotX>
-                        <hotspotY>0.456</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1097,43 +1097,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1253</x>
-                        <y>282</y>
+                        <x>1233.487792969</x>
+                        <y>297.983612061</y>
                         <z>0</z>
-                        <width>19.101112366</width>
-                        <height>34.925468445</height>
-                        <depth>0</depth>
-                        <hotspotX>0.506276131</hotspotX>
-                        <hotspotY>0.011441648</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="parede" uid="70">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1137.817993164</x>
-                        <y>0</y>
-                        <z>0</z>
-                        <width>20</width>
-                        <height>100</height>
+                        <width>31.399324417</width>
+                        <height>30.143352509</height>
                         <depth>0</depth>
                         <hotspotX>0.600000024</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotY>0.291666657</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1411,7 +1382,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="moeda" uid="10">
+                <instance type="presente" uid="10">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1424,19 +1395,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>646</x>
-                        <y>240</y>
+                        <x>661.244995117</x>
+                        <y>255.24508667</y>
                         <z>0</z>
-                        <width>27.694034576</width>
-                        <height>27.694034576</height>
+                        <width>33.148788452</width>
+                        <height>33.148788452</height>
                         <depth>0</depth>
-                        <hotspotX>0.54400003</hotspotX>
-                        <hotspotY>0.456</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="moeda" uid="11">
+                <instance type="presente" uid="11">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1449,19 +1420,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1211</x>
-                        <y>163</y>
+                        <x>1226.245117188</x>
+                        <y>178.24508667</y>
                         <z>0</z>
-                        <width>27.694034576</width>
-                        <height>27.694034576</height>
+                        <width>33.148788452</width>
+                        <height>33.148788452</height>
                         <depth>0</depth>
-                        <hotspotX>0.54400003</hotspotX>
-                        <hotspotY>0.456</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="moeda" uid="12">
+                <instance type="presente" uid="12">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1474,19 +1445,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>760</x>
-                        <y>39</y>
+                        <x>775.244995117</x>
+                        <y>54.245079041</y>
                         <z>0</z>
-                        <width>27.694034576</width>
-                        <height>27.694034576</height>
+                        <width>33.148788452</width>
+                        <height>33.148788452</height>
                         <depth>0</depth>
-                        <hotspotX>0.54400003</hotspotX>
-                        <hotspotY>0.456</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="moeda" uid="13">
+                <instance type="presente" uid="13">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1499,19 +1470,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1241</x>
-                        <y>384</y>
+                        <x>1256.245117188</x>
+                        <y>399.245117188</y>
                         <z>0</z>
-                        <width>27.694034576</width>
-                        <height>27.694034576</height>
+                        <width>33.148788452</width>
+                        <height>33.148788452</height>
                         <depth>0</depth>
-                        <hotspotX>0.54400003</hotspotX>
-                        <hotspotY>0.456</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="moeda" uid="14">
+                <instance type="presente" uid="14">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1524,14 +1495,94 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>493</x>
-                        <y>348</y>
+                        <x>508.244995117</x>
+                        <y>363.245117188</y>
                         <z>0</z>
-                        <width>27.694034576</width>
-                        <height>27.694034576</height>
+                        <width>33.148788452</width>
+                        <height>33.148788452</height>
                         <depth>0</depth>
-                        <hotspotX>0.54400003</hotspotX>
-                        <hotspotY>0.456</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite9" uid="0">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-331</x>
+                        <y>239</y>
+                        <z>0</z>
+                        <width>192</width>
+                        <height>544</height>
+                        <depth>0</depth>
+                        <hotspotX>0.208333328</hotspotX>
+                        <hotspotY>0.463235289</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="portal" uid="18">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1240</x>
+                        <y>60</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>66</height>
+                        <depth>0</depth>
+                        <hotspotX>0.550000012</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="parede" uid="20">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1135</x>
+                        <y>-1</y>
+                        <z>0</z>
+                        <width>7</width>
+                        <height>98</height>
+                        <depth>0</depth>
+                        <hotspotX>0.571428597</hotspotX>
+                        <hotspotY>-0.020408163</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1652,24 +1703,35 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite9" uid="0">
+                <instance type="transicao" uid="19">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Fade">
+                            <properties>
+                                <active-at-start>Yes</active-at-start>
+                                <fade-in-time>0</fade-in-time>
+                                <wait-time>0</wait-time>
+                                <fade-out-time>1</fade-out-time>
+                                <destroy>After fade out</destroy>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-308</x>
-                        <y>303</y>
+                        <x>639</x>
+                        <y>777</y>
                         <z>0</z>
-                        <width>192</width>
-                        <height>544</height>
+                        <width>1280</width>
+                        <height>480</height>
                         <depth>0</depth>
-                        <hotspotX>0.208333328</hotspotX>
-                        <hotspotY>0.463235289</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

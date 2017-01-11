@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>1-fase</name>
     <events>
-        <variable constant="0" name="score2" sid="302455507187565" static="0" type="number">0</variable>
+        <variable constant="0" name="score" sid="302455507187565" static="0" type="number">0</variable>
         <event-block sid="219136140554109">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="816234999832360" type="System" />
@@ -15,7 +15,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-group description="" sid="104362310225980" title="Teclas de Movimento do Jogador2">
+        <event-group description="" sid="104362310225980" title="Teclas de Movimento do Jogador">
             <sub-events>
                 <event-block sid="362888855719737">
                     <conditions>
@@ -116,7 +116,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="435411277235813" title="Animações do Jogador2">
+        <event-group description="" sid="435411277235813" title="Animações do Jogador">
             <sub-events>
                 <comment>Evento: Quando o jogador se movimentar, estiver no chão e a variavel correr for igual a 0.&#x0D;&#x0A;Ação: Setar animação de andar</comment>
                 <event-block sid="627799649847894">
@@ -214,7 +214,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="789154908239877" title="Ações do Jogador2">
+        <event-group description="" sid="789154908239877" title="Ações do Jogador">
             <sub-events>
                 <event-block sid="234080278085979">
                     <conditions>
@@ -359,7 +359,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="732054495345319" title="Gerenciando Vida2">
+        <event-group description="" sid="732054495345319" title="Gerenciando Vida">
             <sub-events>
                 <event-block sid="213769437379266">
                     <conditions>
@@ -442,7 +442,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="126359057696635" title="Gerenciando Inimigos2">
+        <event-group description="" sid="126359057696635" title="Gerenciando Inimigos">
             <sub-events>
                 <event-block sid="616348356768302">
                     <conditions>
@@ -596,16 +596,23 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="737632938024188" title="Resultado para Usuário2">
+        <event-group description="" sid="737632938024188" title="Presentes para Usuário">
             <sub-events>
                 <event-block sid="654281672092413">
                     <conditions>
                         <condition id="0" name="On collision with another object" sid="716494098005923" type="jogador">
-                            <param id="0" name="Object">moeda</param>
+                            <param id="0" name="Object">presente</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="710423343098416" type="moeda" />
+                        <action id="-9" name="Destroy" sid="710423343098416" type="presente" />
+                        <action id="-10" name="Add to" sid="435375629626319" type="System">
+                            <param id="0" name="Variable">score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="719829265104798" type="score">
+                            <param id="0" name="Text">score</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -676,5 +683,25 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-group description="" sid="917367145853622" title="Portal" />
+        <event-block sid="195800855233139">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="787463749311808" type="jogador">
+                    <param id="0" name="Object">portal</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="913448302354144" type="portal">
+                    <param id="0" name="Animation">&quot;fim&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="574770294771028" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="868745631270814" type="System">
+                    <param id="0" name="Layout">2-fase</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

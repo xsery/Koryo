@@ -49,12 +49,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite10/" />
         <folder expanded="1" path="animation-folder/explosao/" />
         <folder expanded="1" path="animation-folder/pes/" />
-        <folder expanded="1" path="animation-folder/moeda/" />
+        <folder expanded="1" path="animation-folder/presente/" />
         <folder expanded="1" path="animation-folder/gameover/" />
-        <folder expanded="1" path="animation-folder/parede/" />
         <folder expanded="1" path="animation-folder/alavanca/" />
         <folder expanded="1" path="animation-folder/pontecai/" />
         <folder expanded="1" path="animation-folder/Sprite9/" />
         <folder expanded="1" path="animation-folder/moeda2/" />
+        <folder expanded="1" path="animation-folder/Sprite11/" />
+        <folder expanded="1" path="animation-folder/Sprite12/" />
+        <folder expanded="1" path="animation-folder/portal/" />
+        <folder expanded="1" path="animation-folder/Sprite13/" />
+        <folder expanded="1" path="animation-folder/transicao/" />
+        <folder expanded="1" path="animation-folder/Sprite14/" />
+        <folder expanded="1" path="animation-folder/parede/" />
     </folders-expanded>
 </c2uistate>

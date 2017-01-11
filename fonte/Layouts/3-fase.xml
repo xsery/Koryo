@@ -390,7 +390,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="moeda" uid="85">
+                <instance type="presente" uid="85">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -406,16 +406,16 @@
                         <x>283.467010498</x>
                         <y>179.128417969</y>
                         <z>0</z>
-                        <width>27.694034576</width>
-                        <height>27.694034576</height>
+                        <width>2.658627272</width>
+                        <height>2.658627272</height>
                         <depth>0</depth>
-                        <hotspotX>0.54400003</hotspotX>
-                        <hotspotY>0.456</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="moeda" uid="86">
+                <instance type="presente" uid="86">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -431,16 +431,16 @@
                         <x>252.63381958</x>
                         <y>178.295349121</y>
                         <z>0</z>
-                        <width>27.694034576</width>
-                        <height>27.694034576</height>
+                        <width>2.658627272</width>
+                        <height>2.658627272</height>
                         <depth>0</depth>
-                        <hotspotX>0.54400003</hotspotX>
-                        <hotspotY>0.456</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="moeda" uid="87">
+                <instance type="presente" uid="87">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -456,16 +456,16 @@
                         <x>345.134063721</x>
                         <y>179.961486816</y>
                         <z>0</z>
-                        <width>27.694034576</width>
-                        <height>27.694034576</height>
+                        <width>2.658627272</width>
+                        <height>2.658627272</height>
                         <depth>0</depth>
-                        <hotspotX>0.54400003</hotspotX>
-                        <hotspotY>0.456</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="moeda" uid="88">
+                <instance type="presente" uid="88">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -481,40 +481,11 @@
                         <x>314.300872803</x>
                         <y>179.128417969</y>
                         <z>0</z>
-                        <width>27.694034576</width>
-                        <height>27.694034576</height>
+                        <width>2.658627272</width>
+                        <height>2.658627272</height>
                         <depth>0</depth>
-                        <hotspotX>0.54400003</hotspotX>
-                        <hotspotY>0.456</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="parede" uid="89">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>982</x>
-                        <y>0</y>
-                        <z>0</z>
-                        <width>0.439999998</width>
-                        <height>92.160003662</height>
-                        <depth>0</depth>
-                        <hotspotX>0.600000024</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -684,11 +655,11 @@
                         <x>201</x>
                         <y>368</y>
                         <z>0</z>
-                        <width>19.101112366</width>
-                        <height>34.925468445</height>
+                        <width>1.998024225</width>
+                        <height>1.918103576</height>
                         <depth>0</depth>
-                        <hotspotX>0.506276131</hotspotX>
-                        <hotspotY>0.011441648</hotspotY>
+                        <hotspotX>0.600000024</hotspotX>
+                        <hotspotY>0.291666657</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -899,11 +870,11 @@
                         <x>816.532470703</x>
                         <y>213.667022705</y>
                         <z>0</z>
-                        <width>36.260643005</width>
-                        <height>36.260643005</height>
+                        <width>7.252128601</width>
+                        <height>7.397171021</height>
                         <depth>0</depth>
-                        <hotspotX>-0.016000001</hotspotX>
-                        <hotspotY>0.512000024</hotspotY>
+                        <hotspotX>0.460000008</hotspotX>
+                        <hotspotY>0.352941185</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -980,11 +951,11 @@
                         <x>519.793151855</x>
                         <y>428.748474121</y>
                         <z>0</z>
-                        <width>33.669563293</width>
-                        <height>33.669563293</height>
+                        <width>6.733912945</width>
+                        <height>6.868591309</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.460000008</hotspotX>
+                        <hotspotY>0.568627477</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
