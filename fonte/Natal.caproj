@@ -63,7 +63,7 @@
                     <effect id="darken" />
                 </effect-type>
             </effects>
-            <texture original-source="C:\Users\xsery\Projects\XmasS\fonte\Textures\FOX---tileset-platformer-new.png" />
+            <texture original-source="C:\Users\irlan.gomes\Documents\fonte\uea\natal\assert\bg-1.png" />
         </object-type>
         <object-type name="Keyboard" sid="792088712353819">
             <plugin id="Keyboard" />

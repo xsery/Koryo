@@ -40,8 +40,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>0</x>
-                        <y>-4</y>
+                        <x>4</x>
+                        <y>1</y>
                         <z>0</z>
                         <width>1280</width>
                         <height>480</height>
