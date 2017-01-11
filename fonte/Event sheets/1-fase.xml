@@ -483,6 +483,7 @@
                             <param id="1" name="Layer">0</param>
                             <param id="2" name="Image point">0</param>
                         </action>
+                        <action id="-9" name="Destroy" sid="111438736126405" type="explosao" />
                     </actions>
                 </event-block>
                 <event-block sid="976467946466796">
@@ -498,6 +499,7 @@
                             <param id="1" name="Layer">0</param>
                             <param id="2" name="Image point">0</param>
                         </action>
+                        <action id="-9" name="Destroy" sid="293491762859591" type="explosao" />
                     </actions>
                 </event-block>
                 <event-block sid="253511759984780">
@@ -577,6 +579,7 @@
                             <param id="1" name="Layer">0</param>
                             <param id="2" name="Image point">0</param>
                         </action>
+                        <action id="-9" name="Destroy" sid="883400865766198" type="explosao" />
                     </actions>
                 </event-block>
                 <event-block sid="666786410681753">
@@ -592,6 +595,7 @@
                             <param id="1" name="Layer">0</param>
                             <param id="2" name="Image point">0</param>
                         </action>
+                        <action id="-9" name="Destroy" sid="342186587925447" type="explosao" />
                     </actions>
                 </event-block>
             </sub-events>
