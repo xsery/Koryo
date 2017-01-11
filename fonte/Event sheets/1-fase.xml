@@ -602,6 +602,22 @@
         </event-group>
         <event-group description="" sid="737632938024188" title="Presentes para Usuário">
             <sub-events>
+                <event-group description="" sid="504121885243042" title="Ponte Cai">
+                    <sub-events>
+                        <event-block sid="637317691739581">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="395711857875143" type="jogador">
+                                    <param id="0" name="Object">pontecai</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Bullet" id="5" name="Set enabled" sid="386073652464492" type="pontecai">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
                 <event-block sid="654281672092413">
                     <conditions>
                         <condition id="0" name="On collision with another object" sid="716494098005923" type="jogador">
@@ -671,22 +687,6 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="504121885243042" title="Ponte Cai">
-            <sub-events>
-                <event-block sid="637317691739581">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="395711857875143" type="jogador">
-                            <param id="0" name="Object">pontecai</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Bullet" id="5" name="Set enabled" sid="386073652464492" type="pontecai">
-                            <param id="0" name="State">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
         <event-group description="" sid="917367145853622" title="Portal" />
         <event-block sid="195800855233139">
             <conditions>
@@ -706,6 +706,16 @@
                     <param id="0" name="Layout">2-fase</param>
                 </action>
             </actions>
+        </event-block>
+        <event-block sid="449862058692719">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="749890338251050" type="System" />
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="968241812521183">
+            <conditions />
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>
