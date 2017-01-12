@@ -644,28 +644,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="gameover" uid="103">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>142</x>
-                        <y>766</y>
-                        <z>0</z>
-                        <width>640</width>
-                        <height>473</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.502183378</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="pontecai" uid="34">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
