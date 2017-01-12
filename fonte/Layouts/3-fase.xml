@@ -71,7 +71,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite" uid="75">
+                <instance type="buraco" uid="75">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -100,7 +100,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="77">
+                <instance type="buraco" uid="77">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -129,7 +129,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="84">
+                <instance type="buraco" uid="84">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -348,6 +348,41 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="tiro" uid="82">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>400</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>Yes</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="DestroyOutsideLayout" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>5</x>
+                        <y>-56</y>
+                        <z>0</z>
+                        <width>19.464252472</width>
+                        <height>22.708293915</height>
+                        <depth>0</depth>
+                        <hotspotX>0.573333323</hotspotX>
+                        <hotspotY>0.533333361</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -411,8 +446,8 @@
                         <x>98.403236389</x>
                         <y>444.225189209</y>
                         <z>0</z>
-                        <width>30.999355316</width>
-                        <height>29.807071686</height>
+                        <width>30</width>
+                        <height>29</height>
                         <depth>0</depth>
                         <hotspotX>0.538461566</hotspotX>
                         <hotspotY>1.039999962</hotspotY>
@@ -541,41 +576,6 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.502183378</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tiro" uid="105">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Bullet">
-                            <properties>
-                                <speed>400</speed>
-                                <acceleration>0</acceleration>
-                                <gravity>0</gravity>
-                                <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>Yes</set-angle>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="DestroyOutsideLayout" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-21.549583435</x>
-                        <y>-27.478927612</y>
-                        <z>0</z>
-                        <width>42.857143402</width>
-                        <height>50</height>
-                        <depth>0</depth>
-                        <hotspotX>0.573333323</hotspotX>
-                        <hotspotY>0.533333361</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

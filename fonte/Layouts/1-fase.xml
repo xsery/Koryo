@@ -71,7 +71,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite" uid="36">
+                <instance type="buraco" uid="36">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -100,7 +100,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="37">
+                <instance type="buraco" uid="37">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -129,7 +129,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="38">
+                <instance type="buraco" uid="38">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -158,7 +158,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="39">
+                <instance type="buraco" uid="39">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -216,7 +216,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="41">
+                <instance type="buraco" uid="41">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -332,7 +332,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="48">
+                <instance type="buraco" uid="48">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -786,8 +786,8 @@
                         <x>41.901580811</x>
                         <y>405.959228516</y>
                         <z>0</z>
-                        <width>52</width>
-                        <height>50</height>
+                        <width>30</width>
+                        <height>29</height>
                         <depth>0</depth>
                         <hotspotX>0.538461566</hotspotX>
                         <hotspotY>1.039999962</hotspotY>
@@ -954,10 +954,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>39.852401733</x>
+                        <x>41.294799805</x>
                         <y>406.579864502</y>
                         <z>0</z>
-                        <width>58.129013062</width>
+                        <width>32.755783081</width>
                         <height>8</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
@@ -976,8 +976,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-112</x>
-                        <y>1048</y>
+                        <x>169</x>
+                        <y>837</y>
                         <z>0</z>
                         <width>640</width>
                         <height>473</height>
@@ -1033,11 +1033,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>580</x>
-                        <y>611</y>
+                        <x>589.980895996</x>
+                        <y>623.736022949</y>
                         <z>0</z>
-                        <width>42.857143402</width>
-                        <height>50</height>
+                        <width>19.464252472</width>
+                        <height>22.708293915</height>
                         <depth>0</depth>
                         <hotspotX>0.573333323</hotspotX>
                         <hotspotY>0.533333361</hotspotY>

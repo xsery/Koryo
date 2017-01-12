@@ -69,7 +69,7 @@
         <object-type name="Keyboard" sid="792088712353819">
             <plugin id="Keyboard" />
         </object-type>
-        <object-type name="Sprite" sid="811449413298020">
+        <object-type name="buraco" sid="811449413298020">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="982998735017544">
@@ -853,6 +853,7 @@
         <layout>2-fase.xml</layout>
         <layout>3-fase.xml</layout>
         <layout>final-stage.xml</layout>
+        <layout>game-over.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>1-fase.xml</event-sheet>

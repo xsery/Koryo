@@ -10,11 +10,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">1-fase</layout>
+        <layout order="1">1-fase</layout>
         <layout order="2">2-fase</layout>
-        <layout active="1" order="3">3-fase</layout>
-        <layout order="12">final-stage</layout>
-        <event-sheet order="1">1-fase</event-sheet>
+        <layout order="3">3-fase</layout>
+        <layout order="4">final-stage</layout>
+        <layout active="1" order="5">game-over</layout>
+        <event-sheet order="0">1-fase</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -31,7 +32,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
-        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/buraco/" />
         <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/Sprite3/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
