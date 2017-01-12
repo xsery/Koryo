@@ -18,8 +18,8 @@
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
             <parallax>
-                <x>1</x>
-                <y>1</y>
+                <x>0.7</x>
+                <y>0.7</y>
             </parallax>
             <zoom-rate>1</zoom-rate>
             <opacity>1</opacity>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="TiledBackground" uid="35">
+                <instance type="bg" uid="35">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -40,10 +40,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>4</x>
-                        <y>1</y>
+                        <x>0</x>
+                        <y>0</y>
                         <z>0</z>
-                        <width>1280</width>
+                        <width>1623</width>
                         <height>480</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -71,7 +71,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="buraco" uid="36">
+                <instance type="bloco" uid="36">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -100,7 +100,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="buraco" uid="37">
+                <instance type="bloco" uid="37">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -129,7 +129,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="buraco" uid="38">
+                <instance type="bloco" uid="38">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -158,7 +158,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="buraco" uid="39">
+                <instance type="bloco" uid="39">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -216,7 +216,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="buraco" uid="41">
+                <instance type="bloco" uid="41">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -332,7 +332,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="buraco" uid="48">
+                <instance type="bloco" uid="48">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -361,7 +361,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="50">
+                <instance type="buraco" uid="50">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -390,7 +390,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="52">
+                <instance type="buraco" uid="52">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -419,7 +419,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="53">
+                <instance type="buraco" uid="53">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -448,7 +448,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="47">
+                <instance type="buraco" uid="47">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -465,8 +465,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1111</x>
-                        <y>559</y>
+                        <x>1098</x>
+                        <y>561</y>
                         <z>0</z>
                         <width>322</width>
                         <height>84</height>
@@ -477,7 +477,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite8" uid="69">
+                <instance type="buraco" uid="69">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -527,8 +527,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2</x>
-                        <y>-1</y>
+                        <x>0</x>
+                        <y>0</y>
                         <z>0</z>
                         <width>1280</width>
                         <height>480</height>
@@ -542,7 +542,7 @@
                         <height>15</height>
                         <max-width>40</max-width>
                         <max-height>15</max-height>
-                        <data>-1,-1,-1,-1,-1,-1,-1,-1,0,1073741825,-1,-1,-1,0,6,-1,-1,-1,-1,-1,-1,-1,-1,1,1073741825,-1,-1,-1,1,7,-1,-1,-1,-1,-1,-1,-1,-1,1,1073741825,-1,-1,-1,1,7,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,6,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,6,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,6,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,6,-1,-1,-1,25,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,7,-1,-1,-1,1,-1,-1,-1,-1,-1,0,536870913,536870913,536870913,536870913,8,-1,-1,-1,1,-1,-1,-1,-1,-1,2,-536870911,-536870911,-536870911,-536870911,6,-1,-1,-1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,7,-1,-1,-1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,8,-1,-1,-1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,6,-1,-1,-1,1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,7,-1,-1,-1,1,-1,-1,-1,-1,-1,1,-1,-1,-1,-1,1,-1,-1,-1,1,-1,-1,-1,-1,-1,1,-1,-1,-1,-1,1,-1,-1,-1,1,-1,-1,-1,-1,-1,2,-1,-1,-1,-1,1,-1,-1,-1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,7,-1,-1,-1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,8,-1,-1,-1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,1610612737,1610612737,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,7,7,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,-1610612735,-1610612735,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,-1,-1,23,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,23,1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,1,-1,-1,23,1,-1,-1,-1,-1,2,-1,-1,-1,-1,-1,1,-1,-1,23,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,-1,-1,23,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,-1,-1,23,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,-1,-1,23,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,-1,-1,-1,1,-1,-1,-1,25,-1,-1,-1,-1,-1,-1,17,-1,-1,-1,1,-1,-1,-1,26,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,1,-1,-1,-1,26,-1,-1,-1,-1,-1,-1,1,-1,-1,-1,1,-1,-1,-1,26,-1,-1,-1,-1,-1,-1,7</data>
+                        <data>-1,-1,-1,-1,-1,-1,-1,-1,0,1073741825,-1,-1,-1,0,6,-1,-1,-1,-1,-1,-1,-1,-1,1,1073741825,-1,-1,-1,1,7,-1,-1,-1,-1,-1,-1,-1,-1,2,1073741825,-1,-1,-1,1,7,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,6,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,6,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,6,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,6,-1,-1,-1,25,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,7,-1,-1,-1,1,-1,-1,-1,-1,-1,0,536870913,536870913,536870913,536870913,8,-1,-1,-1,1,-1,-1,-1,-1,-1,2,-536870911,-536870911,-536870911,-536870911,6,-1,-1,-1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,7,-1,-1,-1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,8,-1,-1,-1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,12,6,-1,-1,-1,1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,7,-1,-1,-1,1,-1,-1,-1,-1,-1,1,-1,-1,-1,-1,7,-1,-1,-1,1,-1,-1,-1,-1,-1,1,-1,-1,-1,-1,7,-1,-1,-1,1,-1,-1,-1,-1,-1,2,-1,-1,-1,-1,7,-1,-1,-1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,7,-1,-1,-1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,12,8,-1,-1,-1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,1610612737,1610612737,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,7,7,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,-1610612735,-1610612735,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,-1,-1,23,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,23,1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,1,-1,-1,23,1,-1,-1,-1,-1,2,-1,-1,-1,-1,-1,1,-1,-1,23,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,-1,-1,23,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,-1,-1,23,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,-1,-1,23,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,17,-1,-1,-1,0,-1,-1,-1,25,-1,-1,-1,-1,-1,-1,17,-1,-1,-1,1,-1,-1,-1,26,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,1,-1,-1,-1,26,-1,-1,-1,-1,-1,-1,1,-1,-1,-1,1,-1,-1,-1,26,-1,-1,-1,-1,-1,-1,1</data>
                     </tilemap-data>
                 </instance>
                 <instance type="explosao" uid="66">
@@ -682,8 +682,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>848.271179199</x>
-                        <y>463.881256104</y>
+                        <x>848</x>
+                        <y>464</y>
                         <z>0</z>
                         <width>95.431365967</width>
                         <height>32.044372559</height>
@@ -966,28 +966,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="gameover" uid="62">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>169</x>
-                        <y>837</y>
-                        <z>0</z>
-                        <width>640</width>
-                        <height>473</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.502183378</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="coracao" uid="68">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -1126,8 +1104,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1260</x>
-                        <y>422</y>
+                        <x>1267</x>
+                        <y>426</y>
                         <z>0</z>
                         <width>31.399324417</width>
                         <height>30.143352509</height>

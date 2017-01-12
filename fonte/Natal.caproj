@@ -57,7 +57,7 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="TiledBackground" sid="725319577333187">
+        <object-type name="bg" sid="725319577333187">
             <plugin id="TiledBg" />
             <effects>
                 <effect-type name="Darken">
@@ -69,7 +69,7 @@
         <object-type name="Keyboard" sid="792088712353819">
             <plugin id="Keyboard" />
         </object-type>
-        <object-type name="buraco" sid="811449413298020">
+        <object-type name="bloco" sid="811449413298020">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="982998735017544">
@@ -366,7 +366,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite8" sid="185367863491678">
+        <object-type name="buraco" sid="185367863491678">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="825759629781362">
@@ -845,6 +845,37 @@
         </object-type>
         <object-type name="Audio" sid="415263700327231">
             <plugin id="Audio" />
+        </object-type>
+        <object-type name="parede2" sid="991417932758303">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="375322132835911">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="387239496011349" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="portal2" sid="634966722009214">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="232417930427215">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="inicio" pingpong="0" repeatcount="1" repeatto="0" sid="878500073538488" speed="2">
+                    <frame duration="1" hotspotX="0.55" hotspotY="0.5" />
+                </animation>
+                <animation framecount="3" loop="0" name="fim" pingpong="0" repeatcount="1" repeatto="0" sid="972546865333562" speed="2">
+                    <frame duration="1" hotspotX="0.55" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.55" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.55" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

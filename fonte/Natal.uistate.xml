@@ -10,12 +10,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="1">1-fase</layout>
         <layout order="2">2-fase</layout>
         <layout order="3">3-fase</layout>
         <layout order="4">final-stage</layout>
-        <layout active="1" order="5">game-over</layout>
-        <event-sheet order="0">1-fase</event-sheet>
+        <layout order="5">game-over</layout>
+        <layout order="1">1-fase</layout>
+        <event-sheet active="1" order="0">1-fase</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -32,7 +32,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
-        <folder expanded="1" path="animation-folder/buraco/" />
+        <folder expanded="1" path="animation-folder/bloco/" />
         <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/Sprite3/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
@@ -47,7 +47,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/subbarra/" />
         <folder expanded="1" path="animation-folder/barra/" />
         <folder expanded="1" path="animation-folder/coracao/" />
-        <folder expanded="1" path="animation-folder/Sprite8/" />
+        <folder expanded="1" path="animation-folder/buraco/" />
         <folder expanded="1" path="animation-folder/inimigo2/" />
         <folder expanded="1" path="animation-folder/tiroinimigo/" />
         <folder expanded="1" path="animation-folder/Sprite10/" />
@@ -67,5 +67,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite14/" />
         <folder expanded="1" path="animation-folder/parede/" />
         <folder expanded="1" path="animation-folder/inimigo3/" />
+        <folder expanded="1" path="animation-folder/parede2/" />
+        <folder expanded="1" path="animation-folder/portal2/" />
     </folders-expanded>
 </c2uistate>
