@@ -735,6 +735,25 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="655360963116585">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="451856638522304" type="jogador">
+                            <param id="0" name="Object">portal3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="429127984071186" type="portal3">
+                            <param id="0" name="Animation">&quot;fim&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="417503660503479" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="275679226326183" type="System">
+                            <param id="0" name="Layout">final-stage</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-group description="" sid="429315930745877" title="Game Over">

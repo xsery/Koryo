@@ -391,7 +391,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="865390711147142" speed="5">
-                    <frame duration="1" hotspotX="0.46" hotspotY="0.352941">
+                    <frame duration="1" hotspotX="0.16" hotspotY="0.764706">
                         <collision-poly>
                             <point x="1" y="1" />
                             <point x="0" y="1" />
@@ -399,7 +399,7 @@
                             <point x="1" y="0.470588" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.46" hotspotY="0.352941">
+                    <frame duration="1" hotspotX="0.16" hotspotY="0.764706">
                         <collision-poly>
                             <point x="1" y="1" />
                             <point x="0" y="1" />
@@ -407,7 +407,7 @@
                             <point x="1" y="0.367647" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.46" hotspotY="0.352941">
+                    <frame duration="1" hotspotX="0.16" hotspotY="0.764706">
                         <collision-poly>
                             <point x="1" y="1" />
                             <point x="0" y="1" />
@@ -871,6 +871,40 @@
                     <frame duration="1" hotspotX="0.55" hotspotY="0.5" />
                 </animation>
                 <animation framecount="3" loop="0" name="fim" pingpong="0" repeatcount="1" repeatto="0" sid="972546865333562" speed="2">
+                    <frame duration="1" hotspotX="0.55" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.55" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.55" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="platmovel" sid="102050302161463">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="745605300006933">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="242697320253523">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="995556588533079" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="portal3" sid="137404648439035">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="789538535012890">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="inicio" pingpong="0" repeatcount="1" repeatto="0" sid="483171119353037" speed="2">
+                    <frame duration="1" hotspotX="0.55" hotspotY="0.5" />
+                </animation>
+                <animation framecount="3" loop="0" name="fim" pingpong="0" repeatcount="1" repeatto="0" sid="558910504246162" speed="2">
                     <frame duration="1" hotspotX="0.55" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.55" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.55" hotspotY="0.5" />
